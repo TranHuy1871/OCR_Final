@@ -16,18 +16,16 @@ C:\Users\nguyenthao\Desktop\OCR_Vietnamese\OCR_Vietnamese\bin\Debug\x64\libtesse
 C:\Users\nguyenthao\Desktop\OCR_Vietnamese\OCR_Vietnamese\bin\Debug\x86\liblept172.dll
 C:\Users\nguyenthao\Desktop\OCR_Vietnamese\OCR_Vietnamese\bin\Debug\x86\libtesseract304.dll
 C:\Users\nguyenthao\Desktop\OCR_Vietnamese\OCR_Vietnamese\bin\Debug\Tesseract.xml
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x64\liblept172.dll
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x64\libtesseract304.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x86\liblept172.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x86\libtesseract304.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\tessdata\vie.traineddata
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\OCR_Vietnamese.exe.config
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\OCR_Vietnamese.exe
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\OCR_Vietnamese.pdb
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.Video.DirectShow.dll
-F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.Video.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\Tesseract.dll
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x64\liblept172.dll
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\x64\libtesseract304.dll
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.dll
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.Video.dll
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.xml
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.Video.xml
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\AForge.Video.DirectShow.xml
@@ -41,3 +39,5 @@ F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\obj\Debug\OCR_Vietnamese.csproj.Core
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\obj\Debug\OCR_Vietnamese.csproj.CopyComplete
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\obj\Debug\OCR_Vietnamese.exe
 F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\obj\Debug\OCR_Vietnamese.pdb
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\OCR_Vietnamese.exe.config
+F:\Thực tập cs cn\ZFinal\OCR_Vietnamese\bin\Debug\OCR_Vietnamese.pdb

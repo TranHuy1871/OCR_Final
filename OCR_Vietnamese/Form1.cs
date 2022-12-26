@@ -31,7 +31,7 @@ namespace OCR_Vietnamese
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.LoadAsync(openFileDialog.FileName);
-            }        
+            }
         }
 
         //khởi động webcam
@@ -75,7 +75,8 @@ namespace OCR_Vietnamese
         private void button2_Click(object sender, EventArgs e)
         {
             string result = "";
-            Task.Factory.StartNew(() => {
+            Task.Factory.StartNew(() =>
+            {
                 picloading.BeginInvoke(new Action(() =>
                 {
                     picloading.Visible = true;
@@ -83,7 +84,8 @@ namespace OCR_Vietnamese
 
                 //thực hiện convert
                 result = OCR((Bitmap)pictureBox1.Image);
-                richTextBox1.BeginInvoke(new Action(() => {
+                richTextBox1.BeginInvoke(new Action(() =>
+                {
 
                     richTextBox1.Text = result;
 
@@ -111,6 +113,21 @@ namespace OCR_Vietnamese
         private void picloading_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_saveresult_Click(object sender, EventArgs e)
+        {
+            var saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Text Files (*.txt)";
+            saveFileDialog.AddExtension = true;
+            if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                var extension = System.IO.Path.GetExtension(saveFileDialog.FileName);
+                if (extension.ToLower() == ".txt") /*saveFileDialog.FilterIndex==1*/
+                    richTextBox1.SaveFile(saveFileDialog.FileName, RichTextBoxStreamType.PlainText);
+                else
+                    richTextBox1.SaveFile(saveFileDialog.FileName, RichTextBoxStreamType.RichText);
+            }
         }
     }
 }

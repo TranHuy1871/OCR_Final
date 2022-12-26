@@ -40,6 +40,7 @@
             this.btn_save = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.btn_saveresult = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picloading)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -153,11 +154,22 @@
             // 
             this.saveFileDialog1.Title = "ImageName|*.png";
             // 
+            // btn_saveresult
+            // 
+            this.btn_saveresult.Location = new System.Drawing.Point(1001, 44);
+            this.btn_saveresult.Name = "btn_saveresult";
+            this.btn_saveresult.Size = new System.Drawing.Size(75, 23);
+            this.btn_saveresult.TabIndex = 12;
+            this.btn_saveresult.Text = "Save";
+            this.btn_saveresult.UseVisualStyleBackColor = true;
+            this.btn_saveresult.Click += new System.EventHandler(this.btn_saveresult_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1088, 552);
+            this.Controls.Add(this.btn_saveresult);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_takephoto);
@@ -191,6 +203,7 @@
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button btn_saveresult;
     }
 }
 
